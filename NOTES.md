@@ -15,4 +15,4 @@ After the fix, this booking is correctly rejected because the date ranges overla
 
 ## 3. AI use
 
-I used ChatGPT to discuss the existing code, validate my understanding of the business rules, and review potential fixes. My prompts typically consisted of three parts: the task or instruction, the relevant code or project context, and any constraints (such as preserving the existing structure or following the stated business rules). I treated the responses as suggestions rather than final answers, verifying each proposed change by reading the code, testing the affected scenarios, and confirming the behavior matched the application's requirements before keeping the change.
+I used ChatGPT as a discussion tool while working through the assessment. I usually gave it the task, the relevant code, and any constraints I wanted to follow, then asked questions about the logic or possible fixes. I didn't apply the suggestions blindly—I tested each one myself and only kept the changes that matched the requirements and worked correctly.
