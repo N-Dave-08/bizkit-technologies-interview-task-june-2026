@@ -89,6 +89,8 @@
           opt.textContent = `${item.name} (PHP ${item.daily_rate}/day)`;
           select.appendChild(opt);
         });
+
+        updateTotal();
       }
 
       function selectedEquipment() {
