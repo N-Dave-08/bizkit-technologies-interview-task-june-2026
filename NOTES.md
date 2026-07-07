@@ -15,4 +15,4 @@ After the fix, this booking is correctly rejected because the date ranges overla
 
 ## 3. AI use
 
-I used ChatGPT to help me think through the booking overlap logic. My prompts usually included the task, the relevant code for context, and any constraints I wanted to keep. I didn't copy the solution directly—I tested it with different booking dates to make sure it worked correctly and followed the application's rules.
+I used ChatGPT to discuss the existing code, validate my understanding of the business rules, and review potential fixes. My prompts typically consisted of three parts: the task or instruction, the relevant code or project context, and any constraints (such as preserving the existing structure or following the stated business rules). I treated the responses as suggestions rather than final answers, verifying each proposed change by reading the code, testing the affected scenarios, and confirming the behavior matched the application's requirements before keeping the change.
